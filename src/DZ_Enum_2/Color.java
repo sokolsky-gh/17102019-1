@@ -11,34 +11,56 @@ public enum Color {
     ANSI_WHITE("\u001B[37m");
 
     private String color;
-    Color(String color){
+
+    Color(String color) {
         this.color = color;
     }
-    public String getColor(){
-        return color;
+
+    public String getColor() {
+        return this.color;
     }
-    static Color[] colorList = Color.values();
 
-    static int rndInd;
-//    static String randomColorName;
-static Color randomColorResult;
 
-    public static Color randomColor(){
+
+/*
+    public static Color getRandomColor() {
         rndIndGen();
-        String randomColorObject = String.valueOf(Color.colorList[rndInd]);
-//        randomColorName = Color.;
-        randomColorResult = Color.valueOf(randomColorObject);
-        return randomColorResult;
+        randomColor = String.valueOf(Color.colorList[rndInd]);
+        return this.randomColor;
     }
+    public static Color[] colorList = Color.values();
 
     public static void rndIndGen() {
-        int colorArrSize = Color.colorList.length-1;
+        int colorArrSize = Color.colorList.length - 1;
         final int max = colorArrSize;
         final int rnd = rnd(max);
     }
+
+    static int rndInd;
 
     public static int rnd(int max) {
         rndInd = (int) (Math.random() * ++max);
         return rndInd;
     }
+
+
+*/
+
+
+
+/*    public static Color[] colorList = Color.values();
+
+    public static void rndIndGen() {
+        int colorArrSize = Color.colorList.length - 1;
+        final int max = colorArrSize;
+        final int rnd = rnd(max);
+    }
+
+    static int rndInd;
+
+    public static int rnd(int max) {
+        rndInd = (int) (Math.random() * ++max);
+        return rndInd;
+    }*/
+
 }

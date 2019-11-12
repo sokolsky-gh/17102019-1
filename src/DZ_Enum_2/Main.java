@@ -12,8 +12,12 @@ public class Main {
     public static final String ANSI_WHITE = "\u001B[37m";
 
     public static void main(String[] args) {
-        System.out.println(ANSI_RED + "This text is red!" + ANSI_RESET);
-        Utils.print(Utils.text, Utils.color);
+        Utils.print("hey, Joe!");
+        Utils.print("hey, Jude!", Color.ANSI_GREEN);
+/*        Utils.randomPrint("Hey, teacher! Live the kids alone!");
+        Utils.randomPrint("Hey, teacher! Live the kids alone!");
+        Utils.randomPrint("Hey, teacher! Live the kids alone!");*/
+
     }
 }
 
