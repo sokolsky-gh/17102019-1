@@ -13,8 +13,9 @@ public class Utils {
         System.out.println(eColor.getColor() + text + Main.ANSI_RESET);
     }
 
-/*    public static void randomPrint(String text) {
-        System.out.println(Color.randomColor + text + Main.ANSI_RESET);
-    }*/
+    public static void randomPrint(String text) {
+        Color.getRandomColor();
+        print(text, Color.randomColor);
+    }
 
 }

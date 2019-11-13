@@ -14,9 +14,9 @@ public class Main {
     public static void main(String[] args) {
         Utils.print("hey, Joe!");
         Utils.print("hey, Jude!", Color.ANSI_GREEN);
-/*        Utils.randomPrint("Hey, teacher! Live the kids alone!");
-        Utils.randomPrint("Hey, teacher! Live the kids alone!");
-        Utils.randomPrint("Hey, teacher! Live the kids alone!");*/
+        Utils.randomPrint("Hey, teacher! Leave those kids alone!");
+        Utils.randomPrint("Hey, teacher! Leave those kids alone!");
+        Utils.randomPrint("Hey, teacher! Leave those kids alone!");
 
     }
 }

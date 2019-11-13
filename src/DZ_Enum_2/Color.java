@@ -20,14 +20,14 @@ public enum Color {
         return this.color;
     }
 
+    static Color randomColor;
 
-
-/*
     public static Color getRandomColor() {
         rndIndGen();
-        randomColor = String.valueOf(Color.colorList[rndInd]);
-        return this.randomColor;
+        randomColor = Color.colorList[rndInd];
+        return randomColor;
     }
+
     public static Color[] colorList = Color.values();
 
     public static void rndIndGen() {
@@ -42,25 +42,5 @@ public enum Color {
         rndInd = (int) (Math.random() * ++max);
         return rndInd;
     }
-
-
-*/
-
-
-
-/*    public static Color[] colorList = Color.values();
-
-    public static void rndIndGen() {
-        int colorArrSize = Color.colorList.length - 1;
-        final int max = colorArrSize;
-        final int rnd = rnd(max);
-    }
-
-    static int rndInd;
-
-    public static int rnd(int max) {
-        rndInd = (int) (Math.random() * ++max);
-        return rndInd;
-    }*/
 
 }
