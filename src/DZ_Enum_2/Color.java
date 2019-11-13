@@ -20,6 +20,7 @@ public enum Color {
         return this.color;
     }
 
+    //Дополнить enum Color статическим методом, который будет возвращать случайный объект enum Color
     static Color randomColor;
 
     public static Color getRandomColor() {
